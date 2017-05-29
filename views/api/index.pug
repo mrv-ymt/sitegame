@@ -1,0 +1,31 @@
+extends ../layout
+
+block content
+  h2 API Examples
+  hr
+
+  .row
+    .col-sm-4
+      a(href='/api/facebook', style='color: #fff')
+        .panel.panel-default(style='background-color: #3b5998')
+          .panel-body
+            img(src='http://i.imgur.com/jiztYCH.png', height=40)
+            |  Facebook
+    .col-sm-4
+      a(href='/api/steam', style='color: #fff')
+        .panel.panel-default(style='background-color: #000')
+          .panel-body
+            img(src='http://i.imgur.com/1xGmKBX.jpg', height=40)
+            |  Steam
+    .col-sm-4
+      a(href='/api/paypal', style='color: #000')
+        .panel.panel-default(style='background-color: #f5f5f5')
+          .panel-body
+            img(src='http://i.imgur.com/JNc0iaX.png', height=40)
+            |  PayPal
+    .col-sm-4
+      a(href='/api/upload', style='color: #1565c0')
+        .panel.panel-default(style='background-color: #fff')
+          .panel-body
+            img(src='http://i.imgur.com/UPTzIdC.png', height=40)
+            |  File Upload
